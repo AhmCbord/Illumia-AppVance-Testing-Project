@@ -4,9 +4,7 @@
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://pfs-dev09.cbhzdev.com/RoomServiceChoice/Launcher/Login"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ad4e9aa1-692c-40d8-a1ce-e6cd9d9bb912' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='setValue' value='"bmt"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='968a5bd2-3e34-4285-bcc0-1d812441699b' uiType='base'>
       <dialect type='sahi'>
@@ -17,7 +15,7 @@
         <accessor type='AttrName' value='textbox("UserID")' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"init123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='860d8038-f4fe-469c-b87e-34ecc3bdd61a' uiType='base' isHidden='true'>
+    <step action='setValue' value='"init123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='860d8038-f4fe-469c-b87e-34ecc3bdd61a' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='byXPath(&apos;//input[@id="Password"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="Password"]&apos;)' selected='false' fallback='true'></accessor>
@@ -34,6 +32,12 @@
       </dialect>
     </step>
     <step action='' value='' type='web' desc='// add validation here' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5a55953f-c202-4246-b928-34975f5e2aae' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='' value='' type='web' desc='validate rsc icon on launch pad page' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c69a40ae-04e4-48ca-91cf-ee18ff65889b' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='assertTrue' value='byXpath(&apos;&apos;)' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='ffed4ceb-341c-4193-aadc-f9fdddade813' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='66aadf09-5d4b-40e3-9e2a-076b81f89605' uiType='base'>
