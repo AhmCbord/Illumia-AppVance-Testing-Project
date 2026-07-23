@@ -37,8 +37,12 @@
     <step action='' value='' type='web' desc='validate rsc icon on launch pad page' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c69a40ae-04e4-48ca-91cf-ee18ff65889b' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
-    <step action='assertTrue' value='byXpath(&apos;&apos;)' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='ffed4ceb-341c-4193-aadc-f9fdddade813' uiType='base'>
-      <dialect type='sahi'></dialect>
+    <step action='assertExists' value='' type='web' desc='// byXPath is case sensitive... byXpath will not work...' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d61ec5a6-72ef-4815-9656-06e1c076bee1' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='byXPath("//img[@src=&apos;/RoomServiceChoice/Content/Images/logo_med.png&apos;]")' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath("//*[@src=&apos;/RoomServiceChoice/Content/Images/logo_med.png&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='byXpath("//*[@src=&apos;/RoomServiceChoice/Content/Images/logo_med.png&apos;]")' selected='false' fallback='true'></accessor>
+      </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='66aadf09-5d4b-40e3-9e2a-076b81f89605' uiType='base'>
       <dialect type='sahi'>
@@ -48,5 +52,16 @@
     </step>
     <step action='' value='' type='web' desc='// add validation here' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0850fb2c-9b66-4323-b5da-e4841bda7194' uiType='base'>
       <dialect type='sahi'></dialect>
+    </step>
+    <step action='' value='' type='web' desc='// verify returned to the login page' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5c537556-0ee6-4ae7-ab85-edd09fd15912' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='assertExists' value='' type='web' desc='// byXPath is case sensitive... byXpath will not work...' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='400582ef-2337-4989-a073-3633b2f2b2a2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='byXPath("//form[@id=&apos;loginForm&apos;]")' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath("//form[@id="loginForm"]")' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath("//*[@src=&apos;/RoomServiceChoice/Content/Images/logo_med.png&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='byXpath("//*[@src=&apos;/RoomServiceChoice/Content/Images/logo_med.png&apos;]")' selected='false' fallback='true'></accessor>
+      </dialect>
     </step>
   </testcase>
