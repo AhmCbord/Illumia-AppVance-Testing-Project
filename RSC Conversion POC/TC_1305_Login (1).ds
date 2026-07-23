@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+  <testcase name='' description='script generated from Web Designer' author='Bradley.Teribury@illumiatech.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='navigateTo' value='"https://pfs-dev09.cbhzdev.com/RoomServiceChoice/Launcher/Login"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ad4e9aa1-692c-40d8-a1ce-e6cd9d9bb912' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"bmt"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='968a5bd2-3e34-4285-bcc0-1d812441699b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='byXPath(&apos;//input[@id="UserID"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="UserID"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="UserID"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("UserID")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("UserID")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"init123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='860d8038-f4fe-469c-b87e-34ecc3bdd61a' uiType='base' isHidden='true'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='byXPath(&apos;//input[@id="Password"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="Password"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='password("Password")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("Password")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e295635b-e3ea-43a9-b1a6-4510abc728ce' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='byXPath(&apos;//input[@id="LoginArea-SubmitButton"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="LoginArea-SubmitButton"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='button("LoginArea-SubmitButton")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='button("Log In")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='' value='' type='web' desc='// add validation here' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5a55953f-c202-4246-b928-34975f5e2aae' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='66aadf09-5d4b-40e3-9e2a-076b81f89605' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='byXPath(&apos;//img[@id="launcherLogOutButton"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath(&apos;//*[@id="launcherLogOutButton"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='' value='' type='web' desc='// add validation here' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0850fb2c-9b66-4323-b5da-e4841bda7194' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+  </testcase>
