@@ -21,5 +21,5 @@ click(fallback(`byXPath('//input[@id="LoginArea-SubmitButton"]')`,
    `byXPath('//*[@id="LoginArea-SubmitButton"]')`,
    `button("LoginArea-SubmitButton")`,
    `button("Log In")`));
-// failed login... validate the mesage, text and font color
+// failed login... validate the mesage, text, and font color
 setDescription("// add validation here");
